@@ -9,7 +9,7 @@ public class TextTimer extends TextView
 	Handler mHandler;
 	TextView mText = this;
 	int i = 0;
-	int colors[] = {0xffaa66cc,0xff00ddff,0xff669900};
+	int colors[] = {0xffaa66cc,0xff00ddff};
 
 	Runnable mRunnable = new Runnable()
 	{
@@ -19,7 +19,7 @@ public class TextTimer extends TextView
 			// TODO: Implement this method
 			mText.setTextColor(colors[i]);
 			i++;
-			if(i==3)
+			if(i==2)
 			{
 				i=0;
 			}
