@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyApp</string>
+    <string name="hello_world">Hello world!</string>
+	
+	<color name="one">#ff00ddff</color>
+	<color name="two">#ffaa66cc</color>
+	<color name="three">#ffff8800</color>
+	<color name="four">#ff669900</color>
+	<color name="five">#ffaaaaaa</color>
+
+</resources>
